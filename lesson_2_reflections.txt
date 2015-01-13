@@ -17,4 +17,5 @@ Makes it easy to see where the branches are and to avoid making a branch unreach
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 It adds the two files together.  We represent it in the diagram as an offshoot so it's always clear what is and isn't included in the master.
 
-
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+When multiple changes are made to the same code, Git won't know which changes to keep.  DOing it manually allows coder to select which changes to keep.

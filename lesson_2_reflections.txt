@@ -4,3 +4,17 @@ It creates a .git file to track all changes.  You do it to create a repository t
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It allows you to "walk through" what files you'd like to be a part of the repository without doing any commits.
 
+How can you use the staging area to make sure you have one commit per logical change?
+Because you can use diff to compare files btwn working directory and staging and then btwn staging and commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Testing two different features to decide which to include.  Branches would allow easy comparison.  Main could be prod, branches could be WIP, esp for collaboration.  Allows ability to compartmentalize work so for ex, if you're bored with working on a feature so want to switch to a bug fix.
+
+
+How do the diagrams help you visualize the branch structure?
+Makes it easy to see where the branches are and to avoid making a branch unreachable.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+It adds the two files together.  We represent it in the diagram as an offshoot so it's always clear what is and isn't included in the master.
+
+

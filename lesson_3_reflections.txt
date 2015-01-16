@@ -15,3 +15,7 @@ You'd use a branch to work on logical changes that aren't ready to be included i
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You want to keep them in sync so when changes are made, less risk of bugs and conflicts.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Use another collaboration tool or use a sharing tool like Dropbox.  Version control and tracking would be harder.  Restoring to last 
+good working version would be harder.  Controlling when to accept changes would be harder.  I can't think of anything that would make it easier.
+

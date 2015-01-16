@@ -11,3 +11,7 @@ Branches are used to allow work on a project that doesn't directly affect the ma
 You'd use a fork when you need to clone from one Github repository to another.
 You'd use a clone to make copies between local repositories or between Github and locals.
 You'd use a branch to work on logical changes that aren't ready to be included in master yet and also to allow others to work on your project.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You want to keep them in sync so when changes are made, less risk of bugs and conflicts.
+

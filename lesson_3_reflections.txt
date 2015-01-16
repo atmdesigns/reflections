@@ -19,3 +19,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 Use another collaboration tool or use a sharing tool like Dropbox.  Version control and tracking would be harder.  Restoring to last 
 good working version would be harder.  Controlling when to accept changes would be harder.  I can't think of anything that would make it easier.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+You make changes in a branch when they aren't completed or when you want to test them or you aren't sure if they'll be permanent 
+or if you want feedback on them from others before you add them to master. The benefit is that if you're getting feedback and make tweaks,
+you can perfect a branch before its folded into master.
+
